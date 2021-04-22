@@ -185,6 +185,11 @@ img {
   height: 20px;
   fill: #afb1b8;
 }
+.customers-icons-svg {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
 .social-icons-link {
   display: flex;
   align-items: center;
@@ -200,7 +205,33 @@ img {
   color: var(--accent-cl);
   background-color: #2196f3;
 }
-
+.customers-icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  background-color: #ffffff;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.customers-icons-item:hover,
+.customers-icons-item:focus {
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.customers-icons {
+  display: inline-flex;
+}
+.customers-icons-item:not(:last-child) {
+  margin-right: 30px;
+}
+.customers-icons-link:hover .customers-icons-svg,
+.customers-icons-link:focus .customers-icons-svg {
+  fill: var(--accent-cl);
+}
 .social-icons-item.menu-item:not(:last-child) {
   margin-right: 22px;
 }
@@ -285,6 +316,9 @@ img {
 }
 .team {
   background-color: #f5f4fa;
+}
+.customers {
+  background-color: #ffffff;
 }
 .about-item {
   font-size: 14px;
