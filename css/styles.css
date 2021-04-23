@@ -190,6 +190,11 @@ img {
   height: 60px;
   fill: #afb1b8;
 }
+.invite-icons-svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
 .social-icons-link {
   display: flex;
   align-items: center;
@@ -199,11 +204,13 @@ img {
   border-radius: 50%;
   background-color: #fff;
 }
+.social-icons-link:hover {
+  background-color: var(--accent-cl);
+}
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
   fill: #ffffff;
-  color: var(--accent-cl);
-  background-color: #2196f3;
+  background-color: var(--accent-cl);
 }
 .customers-icons-link {
   display: flex;
@@ -235,6 +242,24 @@ img {
 .social-icons-item.menu-item:not(:last-child) {
   margin-right: 22px;
 }
+.invite-icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff, 10%;
+}
+.invite-icons-link:hover {
+  background-color: var(--accent-cl);
+}
+.invite-icons-link:hover .invite-icons-svg,
+.invite-icons-link:focus .invite-icons-svg {
+  fill: #ffffff;
+  background-color: var(--accent-cl);
+}
+
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -286,6 +311,16 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.invite-item {
+  text-align: left;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .portfolio-items {
   font-weight: bold;
@@ -401,6 +436,14 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding: 20px 20px;
+  /*padding-bottom: 54px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;*/
+}
+.invite-section {
+  padding: 30px 32px;
   padding: 20px 20px;
   /*padding-bottom: 54px;
   padding-top: 20px;
