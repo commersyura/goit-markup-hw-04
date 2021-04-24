@@ -226,8 +226,6 @@ img {
 .customers-icons-item:hover,
 .customers-icons-item:focus {
   border: 1px solid #2196f3;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 .customers-icons {
   display: inline-flex;
@@ -467,6 +465,10 @@ img {
   box-sizing: border-box;
   flex-basis: calc((100% - 9 * 30px) / 9);
 }
+.team-name-portfolio:ntn-child(3n + 1) {
+  margin-left: 0;
+}
+
 .portfolio-items-name-project {
   font-weight: bold;
   font-size: 18px;
