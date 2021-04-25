@@ -62,6 +62,16 @@ img {
   margin-bottom: 9px;
   margin-top: 9px;
 }
+.about-icons-link {
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .footer-link-address {
   margin-bottom: 9px;
   margin-top: 9px;
@@ -145,12 +155,16 @@ img {
 .logo-studio {
   color: #2196f3;
 }
+.auth-nav-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
 .page-title {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  background: #2f303a;
+  /* background: #2f303a;*/
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -182,6 +196,15 @@ img {
   top: 80px;*/
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../images/Img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero {
   /*height: 120px;*/
@@ -189,8 +212,7 @@ img {
   /*top: 50%;
   left: 50%;*/
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  /**/
 }
 .social-icons {
   display: inline-flex;
@@ -203,6 +225,10 @@ img {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+}
+.about-icons-svg {
+  height: 70px;
+  width: 67px;
 }
 .customers-icons-svg {
   width: 106px;
@@ -302,12 +328,19 @@ img {
 .invite-icons-link:hover {
   background-color: var(--accent-cl);
 }
+.invite-icons-link-footer:hover {
+  background-color: var(--accent-cl);
+}
 .invite-icons-link:hover .invite-icons-svg,
 .invite-icons-link:focus .invite-icons-svg {
   fill: #ffffff;
   background-color: var(--accent-cl);
 }
-
+.invite-icons-link-footer:hover .invite-icons-svg,
+.invite-icons-link-footer:focus .invite-icons-svg {
+  fill: #ffffff;
+  background-color: var(--accent-cl);
+}
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -502,6 +535,8 @@ img {
   padding: 6px 22px;
 }*/
 .item-noshadow {
+  width: 270px;
+  height: 251px;
   margin-left: 30px;
   margin-top: 30px;
   background: #ffffff;
