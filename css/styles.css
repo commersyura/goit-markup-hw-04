@@ -245,7 +245,6 @@ img {
 .customers-icons-item:hover,
 .customers-icons-item:focus {
   border: 1px solid #2196f3;
-  fill: var(--accent-cl);
 }
 .customers-icons {
   display: inline-flex;
@@ -518,7 +517,4 @@ img {
   margin-left: auto;
   margin-right: auto;*/
   display: block;
-}
-.social-icons-item:not(:last-child) {
-  margin-right: 10px;
 }
