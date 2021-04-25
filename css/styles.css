@@ -242,8 +242,8 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
 }
-.customers-icons-item:hover,
-.customers-icons-item:focus {
+.customers-icons-link:hover,
+.customers-icons-link:focus {
   border: 1px solid #2196f3;
 }
 .customers-icons {
@@ -259,7 +259,20 @@ img {
 .social-icons-item.menu-item:not(:last-child) {
   margin-right: 22px;
 }
+.social-icons-item-footer:not(:last-child) {
+  margin-right: 10px;
+}
 .social-icons-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 16px;
+}
+.social-icons-item-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,6 +282,15 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .invite-icons-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff, 10%;
+}
+.invite-icons-link-footer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -291,6 +313,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   align-content: center;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   text-align: center;
